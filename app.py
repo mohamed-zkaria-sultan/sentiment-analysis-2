@@ -15,6 +15,7 @@ import string
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 # Load stop words
 stop_words = stopwords.words('english')

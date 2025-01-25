@@ -112,8 +112,8 @@ if st.button("Analyze Sentiment"):
         
         # Display results
         if sentiment == "POSITIVE":
-            st.success(f"The review is Positive 😊 (Confidence: {confidence:.2f})")
+            st.success(f"The review is Positive 😊")
         elif sentiment == "NEGATIVE":
-            st.error(f"The review is Negative 😞 (Confidence: {confidence:.2f})")
+            st.error(f"The review is Negative 😞")
     else:
         st.warning("Please enter a review to analyze!")
